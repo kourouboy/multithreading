@@ -24,7 +24,8 @@ abstract class A2 extends A{//含有抽象方法的类一定是抽象类
 }
 public class Test2 {
     public static void main(String[] args) {
-        new A1().fun();
+        A a = new A1();//实例化子类，向上转型
+        a.fun();//被子类覆写的方法
 
     }
 }

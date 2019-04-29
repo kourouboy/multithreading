@@ -19,10 +19,10 @@ abstract class Employee{
     private String name;
 
     public Integer getId() {
-        return id;
+        return this.id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -44,15 +44,15 @@ class javaEE extends Develop{
 
     @Override
     public void Work() {
-        System.out.println(super.getName() +super.getId()
-        + "javaEE的工程师正在开发淘宝");
+        System.out.println("名字为：" + getName() + "工号为：" + getId()
+        + "的javaEE工程师正在开发淘宝");
     }
 }
 class Android extends Develop{
 
     @Override
     public void Work() {
-        System.out.println(getName() + getId()
+        System.out.println("名字为："+getName() + "工号为：" +getId()
                 + "Android正在研发安卓客户端");
     }
 }
@@ -64,30 +64,37 @@ class Network extends Maintenance{
 
     @Override
     public void Work() {
-        System.out.println(super.getName() + super.getId()
-        + "网络工程师正在检查网络是否流畅");
+        System.out.println("名字为："+getName() + "工号为：" +getId()
+        + "的网络工程师正在检查网络是否流畅");
     }
 }
 class  HardWare extends Maintenance{
 
     @Override
     public void Work() {
-        System.out.println(getName() + getId()
-        + "维护工程师正在修复网络");
+        System.out.println("名字为："+getName() +"工号为：" + getId()
+        + "的维护工程师正在修复网络");
     }
 }
 public class Test5 {
     public static void main(String[] args) {
 
-        Employee employee = new javaEE();
-        employee.setId(000);
+
        javaEE javaee = new javaEE();
+       javaee.setId(123  );
+       javaee.setName("张三  ");
        javaee.Work();
        Android android = new Android();
+       android.setName("李四  ");
+       android.setId(223  );
        android.Work();
        Network network = new Network();
+       network.setName("王五  ");
+       network.setId(333  );
        network.Work();
        HardWare hardWare = new HardWare();
+       hardWare.setName("猪猪  ");
+       hardWare.setId(423  );
        hardWare.Work();
     }
 }
