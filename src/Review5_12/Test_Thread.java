@@ -19,6 +19,7 @@ public class Test_Thread {
         Mythread mythread = new Mythread("thread1");
         Mythread mythread1 = new Mythread("thread2");
         Mythread mythread2 = new Mythread("thread3");
+        Mythread mythread3 = new Mythread("thread4");
         //直接调用run()方法，这个时候只是做了一个顺序打印，和多线程一点关系都没有
 
 //       mythread.run();
@@ -28,5 +29,6 @@ public class Test_Thread {
         mythread.start();
         mythread1.start();
         mythread2.start();
+        mythread3.start();
     }
 }

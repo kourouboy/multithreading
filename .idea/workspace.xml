@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4fe6d9-26cc-414d-a84e-5f81f94d8752" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test_volatile/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +19,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Review5_12/Test_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="373">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test_volatile/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="394">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -95,8 +93,8 @@
         <option value="$USER_HOME$/Desktop/java7-421/多线程复习思考题笔记.java" />
         <option value="$PROJECT_DIR$/src/To_consider/Test3.java" />
         <option value="$PROJECT_DIR$/src/To_consider/Test2.java" />
-        <option value="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" />
         <option value="$PROJECT_DIR$/src/Test_volatile/Test1.java" />
+        <option value="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" />
       </list>
     </option>
   </component>
@@ -112,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +127,27 @@
               <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
               <item name="multithreading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Review5_12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Review5_12" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_Thread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test_volatile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_volatile" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +209,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -202,7 +220,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatRoom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -363,6 +381,7 @@
       <workItem from="1557132740383" duration="25000" />
       <workItem from="1557323200135" duration="3032000" />
       <workItem from="1557621116962" duration="4241000" />
+      <workItem from="1557669640549" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="多线程 -- sleep（） --  yield（）">
       <created>1555207169674</created>
@@ -382,12 +401,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82853000" />
+    <option name="totallyTimeSpent" value="82931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16814874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -739,21 +758,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Review5_12/Test_Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/Test_volatile/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="394">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test_volatile/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/Review5_12/Test_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="373">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
