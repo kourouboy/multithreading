@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd4fe6d9-26cc-414d-a84e-5f81f94d8752" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/To_consider/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/To_consider/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/To_consider/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test_volatile/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,28 +22,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/To_consider/Text.java">
+        <entry file="file://$PROJECT_DIR$/src/Review5_12/Test_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/To_consider/Test2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="348">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/To_consider/Test3.java">
+        <entry file="file://$PROJECT_DIR$/src/Test_volatile/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="378">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -101,12 +95,14 @@
         <option value="$USER_HOME$/Desktop/java7-421/多线程复习思考题笔记.java" />
         <option value="$PROJECT_DIR$/src/To_consider/Test3.java" />
         <option value="$PROJECT_DIR$/src/To_consider/Test2.java" />
+        <option value="$PROJECT_DIR$/src/Review5_12/Test_Thread.java" />
+        <option value="$PROJECT_DIR$/src/Test_volatile/Test1.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="871" />
-    <option name="width" value="1055" />
+    <option name="x" value="921" />
+    <option name="width" value="1020" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +123,12 @@
               <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
               <item name="multithreading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_volatile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
@@ -154,23 +154,44 @@
               <item name="multithreading" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="To_consider" type="462c0819:PsiDirectoryNode" />
-              <item name="Test3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="To_consider" type="462c0819:PsiDirectoryNode" />
               <item name="Text.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multithreading" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +202,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nowcoderPractice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatRoom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -209,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2 (1)">
+  <component name="RunManager" selected="Application.Test_Thread">
     <configuration name="Test2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="To_consider.Test2" />
       <module name="multithreading" />
@@ -252,20 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TsetAbstract.Test5" />
-      <module name="multithreading" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TsetAbstract.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestOOMobject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestOOM.TestOOMobject" />
       <module name="multithreading" />
@@ -273,6 +280,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestOOM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review5_12.Test_Thread" />
+      <module name="multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Review5_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,18 +325,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test5" />
       <item itemvalue="Application.TestOOMobject" />
       <item itemvalue="Application.Test3 (1)" />
       <item itemvalue="Application.Test2 (1)" />
+      <item itemvalue="Application.Test_Thread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_Thread" />
         <item itemvalue="Application.Test2 (1)" />
         <item itemvalue="Application.Test3 (1)" />
         <item itemvalue="Application.TestOOMobject" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +362,7 @@
       <workItem from="1557127828665" duration="1019000" />
       <workItem from="1557132740383" duration="25000" />
       <workItem from="1557323200135" duration="3032000" />
+      <workItem from="1557621116962" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="多线程 -- sleep（） --  yield（）">
       <created>1555207169674</created>
@@ -360,12 +382,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78612000" />
+    <option name="totallyTimeSpent" value="82853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15925626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16572352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,6 +457,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="多线程 -- sleep（） --  yield（）" />
     <option name="LAST_COMMIT_MESSAGE" value="多线程 -- sleep（） --  yield（）" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java</url>
+          <line>721</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TestThread.java" />
@@ -661,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/To_consider/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/java7-421/多线程复习思考题笔记.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2026">
@@ -684,17 +711,49 @@
         <state relative-caret-position="-1018" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/To_consider/Test2.java">
+    <entry file="file://$PROJECT_DIR$/src/To_consider/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="424">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/To_consider/Test3.java">
+    <entry file="file://$PROJECT_DIR$/src/To_consider/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/To_consider/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="721" column="17" selection-start-line="721" selection-start-column="17" selection-end-line="721" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Review5_12/Test_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test_volatile/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
